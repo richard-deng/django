@@ -10,8 +10,8 @@ height=820
 #color
 bgcolor=(0,128,192)
 image=Image.new('RGB',(width,height),bgcolor)
-font=ImageFont.truetype('huakang.ttf',160)
+font=ImageFont.truetype('huakang.ttf',100)
 fontcolor=(0,255,0)
 draw=ImageDraw.Draw(image)
-draw.text((100,300),u"天意人心",font=font,fill=fontcolor)
-image.save('gxfc.png')
+draw.text((100,300),u"马丽，超级玛丽!",font=font,fill=fontcolor)
+image.save('mali.png')
