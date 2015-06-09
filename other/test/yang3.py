@@ -9,13 +9,15 @@ width=1280
 #height
 height=800
 #color
-bgcolor=(0,128,192)
+#bgcolor=(0,128,192)
+bgcolor=(222,222,222)
 image=Image.new('RGB',(width,height),bgcolor)
-font=ImageFont.truetype('huakang.ttf',100)
-fontcolor=(0,255,0)
+font=ImageFont.truetype('huakang.ttf',160)
+#fontcolor=(0,255,0)
+fontcolor=(139,174,218)
 draw=ImageDraw.Draw(image)
-draw.text((300,400),u"寄不出去的感情",font=font,fill=fontcolor)
-image.save('feeling.png')
+draw.text((200,300),u"蝶木...",font=font,fill=fontcolor)
+image.save('DieMu_1.png')
 
 
 #data=[
